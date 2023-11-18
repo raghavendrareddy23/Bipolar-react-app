@@ -26,6 +26,7 @@ function App() {
     let title = "";
     let metaDescription = "";
 
+    // eslint-disable-next-line default-case
     switch (pathname) {
       case "/":
         title = "";
