@@ -1,55 +1,23 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Navbar, Container, Nav } from "react-bootstrap";
 
 function NavBar() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light justify-content-center">
-      <div className="container">
-        <Link className="navbar-brand" to="/">
-          Bipolar Factory
-        </Link>
-        <button
-          className="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span className="navbar-toggler-icon"></span>
-        </button>
-        <div
-          className="collapse navbar-collapse justify-content-center"
-          id="navbarNav"
-        >
-          <ul className="navbar-nav">
-
-            <li className="nav-item">
-              <Link className="nav-link" to="/card">
-                Camera
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link className="nav-link" to="/chart">
-                Camera Discription
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link className="nav-link" to="/table">
-                Table
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link className="nav-link" to="/login">
-                Login
-              </Link>
-            </li>
-          </ul>
-        </div>
-      </div>
-      <h1>Welcome To the Security ManageMent</h1>
-    </nav>
+    <Navbar bg="light" expand="lg">
+      <Container>
+        <Navbar.Brand href="/">Bipolar Factory</Navbar.Brand>
+        <Navbar.Toggle aria-controls="navbarNav" />
+        <Navbar.Collapse id="navbarNav">
+          <Nav className="me-auto">
+            <Nav.Link href="/card">Camera</Nav.Link>
+            <Nav.Link href="/chart">Camera Description</Nav.Link>
+            <Nav.Link href="/table">Table</Nav.Link>
+            <Nav.Link href="/login">Login</Nav.Link>
+          </Nav>
+        </Navbar.Collapse>
+      </Container>
+      <h1>Welcome To the Security Management</h1>
+    </Navbar>
   );
 }
 

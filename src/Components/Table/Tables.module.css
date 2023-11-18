@@ -197,3 +197,24 @@
   color: var(--gray-400);
   font-family: var(--font-noto-sans);
 }
+
+/* Tables.module.css */
+
+/* Tables.module.css */
+
+/* Update the .table1 class to be more adaptive */
+.table1 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 10px;
+  justify-content: center; /* Center-aligns the grid content */
+  padding: 10px; /* Adds padding around the grid */
+}
+
+/* Update the media query for smaller screens */
+@media (max-width: 768px) {
+  .table1 {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  }
+}
+
