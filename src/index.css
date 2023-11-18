@@ -1,13 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600;700&display=swap");
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  line-height: normal;
 }
+:root {
+  /* fonts */
+  --font-roboto: Roboto;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  /* font sizes */
+  --font-size-xs: 12px;
+  --font-size-sm: 14px;
+  --font-size-smi: 13px;
+  --font-size-base: 16px;
+  --font-size-xl: 20px;
+  --font-size-17xl: 36px;
+  --font-size-2xs: 11px;
+  --font-size-7xs: 6px;
+
+  /* Colors */
+  --color-gray-100: #858585;
+  --color-gray-200: #767676;
+  --color-gray-300: #757575;
+  --color-gray-400: #222;
+  --white-high-emphasis: #fff;
+  --gray-divider: #e5e5e5;
+  --color-dimgray: #5f5f5f;
+  --color-darkgray: #b3b3b3;
+  --color-darkslategray-100: #333;
+  --color-black: #000;
+  --color-whitesmoke-100: #efefef;
+  --color-whitesmoke-200: #e9e9e9;
+  --color-red: #ed1c24;
+  --color-gainsboro-100: #d9d9d9;
+  --chart-solid-oi-cvd-8-oi-cvd-purple: #cc79a7;
+  --chart-solid-plasma-20-plsm-19-20: #f7e225;
+  --chart-solid-plasma-20-plsm-18-20: #fccd25;
+  --chart-solid-plasma-20-plsm-17-20: #feb72d;
+  --color-darkorange: #fb8b34;
+  --color-limegreen: #00db4a;
+  --color-green: #19a01e;
+  --color-pink: #ffbfcc;
+  --color-gray: #222;
+  --gray-divider: #e5e5e5;
+  --color-gray-100: #757575;
+  --color-gray-200: rgba(0, 0, 0, 0.6);
+  --white-high-emphasis: #fff;
+  --color-limegreen: rgba(0, 219, 74, 0.87);
+
+  /* Gaps */
+  --gap-lg: 18px;
+  --gap-xs: 12px;
+  --gap-3xs: 10px;
+  --gap-7xs: 6px;
+  --gap-xl: 20px;
+  --gap-6xl: 25px;
+  --gap-5xl: 24px;
+  --gap-3xl: 22px;
+  --gap-base: 16px;
+  --gap-5xs: 8px;
+  --gap-sm: 14px;
+  --gap-11xs: 2px;
+  --gap-3xs: 10px;
+  --gap-xs: 12px;
+
+  /* Paddings */
+  --padding-xs: 12px;
+  --padding-9xs: 4px;
+  --padding-3xl: 22px;
+  --padding-3xs: 10px;
+  --padding-5xl: 24px;
+  --padding-xl: 20px;
+  --padding-base: 16px;
+  --padding-5xs: 8px;
+  --padding-11xs: 2px;
+  --padding-7xs: 6px;
+
+  /* Border radiuses */
+  --br-9xs: 4px;
+  --br-xs: 12px;
+  --br-81xl: 100px;
+  --br-7xs: 6px;
+  --br-5xs: 8px;
+  --br-xs: 12px;
+  --br-9xs: 4px;
+
+  /* Effects */
+  --x-large-shadow: 4px 4px 10px rgba(0, 0, 0, 0.12);
 }

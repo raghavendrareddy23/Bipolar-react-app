@@ -1,0 +1,67 @@
+/* Header Container */
+.HeaderContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.text {
+  color: #222;
+  font-family: Roboto;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.5px;
+}
+
+/* Header Text */
+.HeaderText {
+  color: #222;
+  font-family: Roboto;
+  font-size: 16px !important;
+  font-style: normal;
+  font-weight: 500 !important;
+  line-height: normal;
+  letter-spacing: 0.5px;
+}
+.text1 {
+  color: rgba(0, 0, 0, 0.47);
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400 !important;
+  line-height: 24px; /* 200% */
+  letter-spacing: 0.5px;
+  text-transform: capitalize;
+}
+/* Logo */
+.Logo {
+  background: rgb(185, 180, 180);
+  margin-right: 10px;
+  height: 24px;
+  width: auto;
+}
+
+/* Buttons Container */
+.ButtonsContainer {
+  display: flex;
+  gap: 10px;
+}
+.Buttons {
+  display: flex;
+  /* width: 120px; */
+  padding: 10px 10px !important;
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: center;
+  gap: 20px m !important;
+  border-radius: 8px !important;
+  color: #333 !important;
+  border: 1.4px solid #333 !important;
+}
+.Buttons:nth-last-child(1) {
+  color: red !important;
+  border: 1.4px solid red !important;
+}

@@ -1,0 +1,290 @@
+.overallCameraHealth1 {
+  position: relative;
+  letter-spacing: 0.1px;
+  line-height: 20px;
+  font-weight: 600;
+}
+.overallCameraHealthParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.ellipseDiv,
+.groupChild,
+.groupChild1,
+.groupInner,
+.groupItem {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: var(--color-gainsboro-100);
+  width: 190px;
+  height: 190px;
+}
+.ellipseDiv,
+.groupChild1,
+.groupInner,
+.groupItem {
+  background-color: var(--color-green);
+}
+.ellipseDiv,
+.groupChild1,
+.groupInner {
+  background-color: var(--color-limegreen);
+}
+.ellipseDiv,
+.groupChild1 {
+  background-color: var(--color-darkorange);
+}
+.groupChild1 {
+  background-color: var(--color-red);
+}
+.b,
+.cameras {
+  position: relative;
+  letter-spacing: 0.1px;
+}
+.cameras {
+  font-size: var(--font-size-base);
+}
+.parent {
+  position: absolute;
+  top: calc(50% - 31px);
+  left: calc(50% - 32px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-11xs);
+}
+.ellipseParent {
+  position: relative;
+  width: 190px;
+  height: 190px;
+}
+.totally {
+  font-weight: 500;
+}
+.b1 {
+  font-size: var(--font-size-base);
+}
+.totally124CamerasContainer {
+  position: relative;
+  letter-spacing: 0.5px;
+}
+.info {
+  align-self: stretch;
+  border-radius: var(--br-7xs);
+  background-color: var(--color-whitesmoke-100);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-base);
+  gap: var(--gap-3xs);
+}
+.camerasWereExperiencing1 {
+  font-size: var(--font-size-sm);
+  font-weight: 500;
+}
+.typcninfoParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.viewCameras {
+  position: relative;
+  letter-spacing: 0.5px;
+  font-weight: 600;
+}
+.status {
+  border-radius: var(--br-7xs);
+  background-color: var(--white-high-emphasis);
+  overflow: hidden;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs);
+  font-size: var(--font-size-xs);
+  color: var(--color-gray);
+}
+.info1,
+.infoParent,
+.status {
+  align-self: stretch;
+  display: flex;
+}
+.info1 {
+  border-radius: var(--br-7xs);
+  background-color: var(--color-pink);
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--padding-base);
+  font-size: var(--font-size-base);
+}
+.infoParent {
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-sm);
+}
+.legendSquare8,
+.phinfoFillIcon4 {
+  position: relative;
+  width: 16px;
+  height: 16px;
+}
+.legendSquare8 {
+  border-radius: var(--br-81xl);
+  background-color: var(--color-green);
+}
+.phinfoFillIcon4 {
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.legendSquareParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-7xs);
+}
+.legendSquare10,
+.legendSquare11,
+.legendSquare9 {
+  position: relative;
+  border-radius: var(--br-81xl);
+  background-color: var(--color-limegreen);
+  width: 16px;
+  height: 16px;
+}
+.legendSquare10,
+.legendSquare11 {
+  background-color: var(--color-darkorange);
+}
+.legendSquare11 {
+  background-color: var(--color-red);
+}
+.div {
+  position: relative;
+  line-height: 18px;
+}
+.legendSquare12 {
+  position: relative;
+  background-color: var(--chart-solid-plasma-20-plsm-17-20);
+  width: 16px;
+  height: 16px;
+}
+.group {
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  font-size: var(--font-size-base);
+  font-family: var(--font-assistant);
+}
+.legendSquare13,
+.legendSquare14,
+.legendSquare15 {
+  position: relative;
+  background-color: var(--chart-solid-plasma-20-plsm-18-20);
+  width: 16px;
+  height: 16px;
+}
+.legendSquare14,
+.legendSquare15 {
+  background-color: var(--chart-solid-plasma-20-plsm-19-20);
+}
+.legendSquare15 {
+  background-color: var(--chart-solid-oi-cvd-8-oi-cvd-purple);
+}
+.legends {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-base);
+}
+.frameGroup,
+.groupParent,
+.legends {
+  display: flex;
+  justify-content: flex-start;
+}
+.frameGroup {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: var(--gap-3xl);
+  font-size: var(--font-size-sm);
+}
+.groupParent {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-5xl);
+  font-size: var(--font-size-17xl);
+}
+.frameParent,
+.healthGraph {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameParent {
+  align-self: stretch;
+  gap: var(--gap-6xl);
+}
+.healthGraph {
+  position: absolute;
+  top: 353px;
+  left: 218px;
+  border-radius: var(--br-xs);
+  background-color: var(--white-high-emphasis);
+  border: 1px solid #e5e5e5;
+  box-sizing: border-box;
+  width: 1076px;
+  overflow: hidden;
+  padding: var(--padding-xl) var(--padding-5xl);
+}
+.charts {
+  position: relative;
+  background-color: #e0e0e0;
+  width: 100%;
+  height: 982px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-roboto);
+}
+
+/* YourExternalStylesheet.module.css */
+
+/* Styles for the circular chart */
+.circularChart {
+  width: 300px;
+  height: 300px;
+}
+
+/* Styles for the arcs (segments) */
+.arc {
+  fill: transparent;
+  transition: stroke-dasharray 0.8s ease;
+}
+
+/* Center text styles */
+.centerText {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  fill: #333; /* Text color */
+}
+
+/* Additional styles or adjustments can be made as needed */

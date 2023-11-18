@@ -1,0 +1,266 @@
+.cardselevationflat {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-xs);
+  background-color: var(--white-high-emphasis);
+  border: 1px solid var(--gray-divider);
+  box-sizing: border-box;
+}
+.cardselevationwhiteflat {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 348px;
+  height: 140px;
+}
+.fluentclipboardTaskAdd24RIcon {
+  position: absolute;
+  top: 19.88px;
+  left: 24px;
+  width: 48px;
+  height: 48px;
+  overflow: hidden;
+}
+.manage,
+.recipeManagement {
+  position: absolute;
+  top: 76px;
+  left: 24px;
+  line-height: 36px;
+}
+.manage {
+  top: 109px;
+  left: 269px;
+  font-size: var(--font-size-xs);
+  letter-spacing: 0.4px;
+  line-height: 15px;
+  font-weight: 500;
+  color: var(--color-gray-200);
+}
+.recipeCard {
+  position: absolute;
+  top: 421px;
+  left: 878px;
+  width: 348px;
+  height: 140px;
+}
+.manage1 {
+  position: absolute;
+  top: 39px;
+  left: 71px;
+  letter-spacing: 0.4px;
+  line-height: 15px;
+  font-weight: 500;
+}
+.bankEntranceFrontViewCamer {
+  position: relative;
+  letter-spacing: 0.1px;
+  line-height: 20px;
+  font-weight: 500;
+}
+.carbontaskToolsIcon {
+  position: relative;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.recipesAdded {
+  position: relative;
+  letter-spacing: 0.1px;
+  line-height: 20px;
+}
+.carbontaskToolsParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.today0445pmUnidentified {
+  position: relative;
+  letter-spacing: 0.1px;
+}
+.frameParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+  font-size: var(--font-size-smi);
+  color: var(--color-gray-100);
+}
+.active {
+  position: relative;
+  letter-spacing: 0.5px;
+  font-weight: 600;
+}
+.activeWrapper {
+  border-radius: var(--br-9xs);
+  background-color: var(--color-limegreen);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 4px 8px;
+}
+.materialSymbolsdeleteOutlinIcon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.frameGroup,
+.materialSymbolsdeleteOutlinParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.materialSymbolsdeleteOutlinParent {
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.frameGroup {
+  align-self: stretch;
+  justify-content: space-between;
+  font-size: var(--font-size-xs);
+  color: var(--white-high-emphasis);
+}
+.bankEntranceFrontViewCamerParent {
+  position: absolute;
+  top: 254.57px;
+  left: calc(50% - 146px);
+  width: 291px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+  color: #000;
+}
+.groupChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-xs) var(--br-xs) 0 0;
+  width: 340px;
+  height: 240.57px;
+  object-fit: cover;
+}
+.praveenKumarWrapper {
+  top: 1.69px;
+  left: 1.94px;
+  border-radius: 0 0 var(--br-9xs) 0;
+  background-color: rgba(32, 223, 97, 0.9);
+}
+.inTime24221PmWrapper,
+.managerWrapper,
+.praveenKumarWrapper {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-11xs) var(--padding-7xs);
+}
+.managerWrapper {
+  top: 12.69px;
+  left: 1.94px;
+  border-radius: 0 0 var(--br-9xs) 0;
+  background-color: rgba(76, 175, 80, 0.9);
+}
+.inTime24221PmWrapper {
+  top: 67.69px;
+  right: 9.06px;
+  background-color: rgba(0, 67, 196, 0.9);
+}
+.detect {
+  position: absolute;
+  top: 12px;
+  left: 130px;
+  border: 2px solid var(--color-limegreen);
+  box-sizing: border-box;
+  width: 80px;
+  height: 80px;
+  overflow: hidden;
+}
+.rectangleParent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 340px;
+  height: 240.57px;
+  font-size: var(--font-size-7xs);
+}
+.today0322pmUser {
+  position: relative;
+  letter-spacing: 0.1px;
+  line-height: 20px;
+  margin-top: -2px;
+}
+.fluentclipboardError16ReguGroup,
+.today0445pmUnidentifiedFParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.fluentclipboardError16ReguGroup {
+  position: absolute;
+  top: calc(50% - 28px);
+  left: calc(50% - 121px);
+  flex-direction: row;
+  gap: var(--gap-3xs);
+}
+.cameraCardInner {
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-radius: 0 0 0 var(--br-xs);
+  background-color: var(--color-gray-200);
+  width: 270px;
+  height: 74px;
+  overflow: hidden;
+  opacity: 0;
+  font-size: var(--font-size-2xs);
+}
+.cameraCard,
+.cameraCard1 {
+  position: absolute;
+  width: 340px;
+  height: 412px;
+}
+.cameraCard1 {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-xs);
+  background-color: #f8f8f8;
+  box-shadow: var(--x-large-shadow);
+  overflow: hidden;
+  font-size: 16px;
+  color: var(--white-high-emphasis);
+}
+.cameraCard {
+  top: 285px;
+  left: 285px;
+  font-size: var(--font-size-xs);
+  color: var(--color-gray-200);
+}
+.cards {
+  position: relative;
+  background-color: #e0e0e0;
+  width: 100%;
+  height: 982px;
+  overflow: hidden;
+  text-align: left;
+  font-size: 24px;
+  color: #656565;
+  font-family: var(--font-roboto);
+}
